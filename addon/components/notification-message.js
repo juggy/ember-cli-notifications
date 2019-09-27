@@ -11,8 +11,7 @@ import { next } from '@ember/runloop';
 export default Component.extend({
   layout,
   styles,
-  tagName: '',
-
+  
   paused: false,
 
   dismissClass: computed('notification.dismiss', function() {
